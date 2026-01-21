@@ -1,0 +1,26 @@
+# Core ML frameworks
+jax[tpu]>=0.8.0
+numpy>=2.0.0
+
+# Tunix and dependencies (install from git)
+# pip install git+https://github.com/google/tunix
+# pip install git+https://github.com/google/qwix
+# pip install git+https://github.com/google/flax
+
+# Data and tokenization
+transformers>=4.40.0
+datasets>=2.20.0
+grain>=0.2.0
+tensorflow>=2.15.0
+tensorflow-datasets>=4.9.0
+
+# Model downloading
+kagglehub>=0.2.0
+huggingface-hub>=0.20.0
+
+# Checkpointing
+orbax-checkpoint>=0.5.0
+
+# Utilities
+optax>=0.2.0
+pyarrow>=17.0.0
